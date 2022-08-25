@@ -36,7 +36,7 @@ function css() {
   const plugins = [
     uncss({
       html: [`${DIST}/*.html`],
-      ignore: ['.header__links_opened'],
+      ignore: ['.header__links_opened', '.header__links-toggled'],
     }),
     extractMediaQuery({
       output: {
