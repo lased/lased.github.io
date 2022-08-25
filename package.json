@@ -1,0 +1,10 @@
+{
+  "name": "shri2022-performance",
+  "version": "1.0.0",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
