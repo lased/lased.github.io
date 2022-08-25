@@ -1,10 +1,21 @@
 {
   "name": "shri2022-performance",
+  "type": "module",
   "version": "1.0.0",
   "scripts": {
     "gulp": "gulp"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-postcss": "^9.0.1",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss": "^8.4.16",
+    "postcss-extract-media-query": "^3.0.0",
+    "uncss": "^0.16.2"
   }
 }
